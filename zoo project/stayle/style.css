@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* header style */
+header {
+    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/35b13962-c182-4fe5-96d7-f3f4d360fa52.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+.menu a {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0px 10px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: rgba(138, 137, 135, 0.745);
+    border-radius: 10px;
+}
+
+/* header containt */
+.hero {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffffcf;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 20px rgb(74, 2, 74);
+    text-transform: capitalize;
+    margin: 20px 0px;
+}
+.hero p {
+    line-height: 30px;
+    word-spacing: 1.2px;
+    letter-spacing: 1.5px;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.container span {
+    text-shadow: 2px 2px 20px rgb(74, 2, 74);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* gellery style  */
+.frist-page{
+    height:85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/2222.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-page{
+    height:90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/4444.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third-page{
+    height:90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/7777.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffffcf;
+    border: 1px solid gray;
+    font-weight: bold;
+    background-color: transparent;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(204, 204, 200, 0.271);
+}
+.frist-page h1,
+.second-page h1,
+.third-page h1 {
+    color: rgba(255, 255, 255, 0.572);
+    text-shadow: 5px 5px 10px black;
+    letter-spacing: 50px;
+    font-size: 200px;
+    font-family:'Lilita One', cursive;
+}
+
+/* detail page stayle */
+
+.box1{
+    height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.73), rgba(255, 255, 255, 0.73)), url('../img/back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row {
+    padding:10px 0px ;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    padding: 10 px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(59, 59, 59, 0.811);
+}
+.box1 h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize ;
+    margin: 0px 50px;
+    padding: 10px 0px;
+    border-bottom: 4px solid rgb(79, 53, 53);
+}
+.box h2 {
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.box p {
+    margin: 5px 0px;
+    width: 350px;
+    color: #161616;
+    text-align: left;
+    font-weight: 100;
+    font-size: 17px;
+}
+.box a{
+    color: rgb(152, 151, 151);
+}
+.box a:hover{
+    color: rgb(132, 4, 4);
+}
+.boxes .box1 {
+    flex-direction: column;
+    width: 80%;
+    display: flex;
+}
+.box1 img {
+    border: 2px solid darkgrey;
+    height: 220px;
+    width: 350px;
+}
+
+/* contact style  */
+
+.contact {
+    margin-top: 20px;
+    height: 90vh;
+    padding: 20px 0px ;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/pexels-billel-moula-540518.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.contact h2 {
+    text-transform: capitalize;
+    text-shadow: 2px 2px 20px rgb(74, 2, 74);
+    font-size: 40px;
+    margin: 10px;
+    color: #fff;
+}
+.contact input, textarea{
+    margin: 15px;
+    padding: 15px;
+    width: 40%;
+    background-color: transparent;
+    border: 1px solid #ffffffcf;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0px 0px 20px 2px rgba(40, 2, 55, 0.446);
+}
+input:hover,
+textarea:hover{ 
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.contact button{
+    border-radius: 20px;
+    margin: 15px;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: #ffffffcf;
+    background-color: transparent;
+    border: 1px solid #ffffffcf;
+}
+.contact button:hover{
+    background-color: rgba(119, 9, 9, 0.451);
+}
+.contact .thank-you{
+    position: relative;
+    text-transform: capitalize;
+    top:100px;
+    color: rgba(255, 255, 255, 0.572);
+    text-shadow: 2px 0px 20px rgb(17, 70, 87);
+    letter-spacing: 10px;
+    font-size: 50px;
+    /* font-family:'Lilita One', cursive; */
+}
+/* footer stayle  */
+footer {
+    margin-top: 50px;
+    background-color: rgb(68, 67, 67);
+}
+.footer-menu li,a{
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-menu li:hover{
+    background-color: rgba(138, 137, 135, 0.304);
+    border-radius: 10px;
+}
+footer p{
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+    color: #ffffffcf;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* media quarry */
